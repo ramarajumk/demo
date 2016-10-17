@@ -1,4 +1,4 @@
-select c.display_name as "Contact display name", c.organization_name as "Employer organisation name" ,count(cs.id) as "Number (count) of cases"
+select c.display_name as "Contact Display Name", c.organization_name as "Employer Organisation Name" ,count(cs.id) as "Number (count) of Cases"
 from civicrm_case cs
 join civicrm_case_contact cc
 on cs.id = cc.case_id
