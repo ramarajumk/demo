@@ -4,5 +4,5 @@ join civicrm_case_contact cc
 on cs.id = cc.case_id
 join civicrm_contact c
 on cc.contact_id = c.id
-where cs.status_id = 3
+where cs.status_id = 1
 group by c.id
